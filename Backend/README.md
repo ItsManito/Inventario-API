@@ -35,6 +35,15 @@ npm run dev
 npm start
 ```
 
+5) Interfaz Interactiva (Swagger UI)
+La API incluye documentación completa e interactiva disponible en:
+
+```bash
+
+http://localhost:3000/api-docs
+
+```
+
 ## Endpoints
 Auth
 - `POST /api/auth/register`
