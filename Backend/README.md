@@ -20,7 +20,12 @@ cp .env.example .env
      ```bash
      npm i mysql2
      ```
-
+   - Ajustar el puerto de la Base de datos segun el que tenga configurado en su POSTGRESQL  
+      ```bash
+      DB_PORT=5433
+      # o
+      DB_PORT=5432
+      ```
 3) Inicializa la base de datos (Sequelize CLI):
 ```bash
 npx sequelize db:create
